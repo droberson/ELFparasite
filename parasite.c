@@ -79,6 +79,7 @@ int main(int argc, char *argv[], char *envp[]) {
     exit(EXIT_FAILURE);
   }
 
+  /* Skip first ELF header */
   if (lseek(parasite, sizeof(needle), SEEK_SET) != sizeof(needle)) {
     exit(EXIT_FAILURE);
   }
