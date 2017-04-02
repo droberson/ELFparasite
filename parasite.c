@@ -34,7 +34,7 @@ int main(int argc, char *argv[], char *envp[]) {
   int len;
   int offset;
   char *buf, *buf2;
-  char needle[] = {0x7f, 0x45, 0x4c, 0x46, 0x02, 0x01}; // ELF Magic
+  char needle[] = {0x7f, 0x45, 0x4c, 0x46, 0x02, 0x01, 0x01}; // ELF Magic
   struct stat self;
 
 
